@@ -1,0 +1,63 @@
+%text-position-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+$dark-grey-color-text: #626262;
+.article {
+    margin: 0;
+    padding: 46px 0 45px 0;
+    &__content-box {
+    display: grid;
+    grid-template-columns: 420px 420px;
+    grid-template-rows: repeat(3, 516px);
+    column-gap: 65px;
+    row-gap: 130px;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        &-image {
+            width: 420px;
+            height: 280px;
+            flex-shrink: 0;
+        }
+        &-text-box {
+            @extend %text-position-start;
+            gap: 40px;
+        }
+        &-title-group {
+            @extend %text-position-start;
+            gap: 32px;
+        }
+        &-small-title {
+            color: #B4AD9E;
+            font-family: Ubuntu;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        &-title {
+            color: $dark-grey-color-text;
+            font-family: "Playfair Display";
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &-paragraf {
+            width: 420px;
+            color: $dark-grey-color-text;
+            font-family: "Playfair Display";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

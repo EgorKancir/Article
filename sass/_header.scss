@@ -1,0 +1,28 @@
+$navigation-color-text: #7D7D7D;
+$navigation-hover-color-text: #03A9F4;
+.header {
+    margin: 0 auto;
+    padding: 71px 0 46px 0;
+    &__navigation {
+        &-cansol {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 99px;
+        }
+        &-link {
+            display: block;
+            color: $navigation-color-text;
+            font-family: Playfair Display;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            &:hover {
+                color: $navigation-hover-color-text;
+                transform: scale(1.05);
+                transition: all 0.2s linear;
+            }
+        }
+    }
+}

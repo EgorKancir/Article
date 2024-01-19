@@ -1,0 +1,28 @@
+$dark-grey-color-text: #626262;
+$navigation-hover-color-text: #03A9F4;
+.footer {
+    margin: 0;
+    padding: 45px 0 66px 0;
+    &__content-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__button {
+        margin: 0 auto;
+        padding: 20px 48px;
+        border: 1px solid $dark-grey-color-text;
+        color: $dark-grey-color-text;
+        font-family: "Playfair Display";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &:hover {
+            transform: scale(1.05);
+            color: $navigation-hover-color-text;
+            border: 1px solid $navigation-hover-color-text;
+            transition: all 0.2s linear;
+        }
+    }
+}

@@ -3,65 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт №2</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Fotoblog</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <nav>
-        <a href="#LIFESTYLE" class="le">LIFESTYLE</a>
-        <a href="#PHOTODIARY" class="py">PHOTODIARY</a>
-        <a href="#MUSIC" class="mc">MUSIC</a>
-        <a href="#TRAVEL" class="tl">TRAVEL</a>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="header__navigation">
+                <ul class="header__navigation-cansol">
+                    <li class="header__navigation-items">
+                        <a class="header__navigation-link" href="#lifestyle">LIFESTYLE</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a class="header__navigation-link" href="#photodiary">PHOTODIARY</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a class="header__navigation-link" href="#music">MUSIC</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a class="header__navigation-link" href="#travel">TRAVEL</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <div class="card">
-            <img class="fx" src="./img/1_1.png" alt="1_1">
-            <p class="text"> LIFESTYLE </p>
-            <h2 id="LIFESTYLE" class="fx">More than just a music festival </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur 
-                adipisicing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut 
-                  aliquip ex ea.</p>
+    <main class="main">
+        <div class="article">
+            <div class="container">
+                <div class="article__content-box">
+                    <div class="article__card">
+                        <img class="article__card-image" src="./img/1_1.png" alt="1_1">
+                        <div class="article__card-text-box">
+                            <div class="article__card-title-group">
+                                <h4 class="article__card-small-title"> LIFESTYLE </h4>
+                                <h2 class="article__card-title" id="lifestyle">More than just a music festival </h2>
+                            </div>
+                            <p class="article__card-paragraf">
+                                Lorem ipsum dolor sit amet, consectetur 
+                                adipisicing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut 
+                                aliquip ex ea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article__card">
+                        <img class="article__card-image" src="./img/2_1.png" alt="2_1">
+                        <div class="article__card-text-box">
+                            <div class="article__card-title-group">
+                                <h4 class="article__card-small-title">LIFESTYLE</h4>
+                                <h2 class="article__card-title" id="photodiary">Life tastes better with coffee</h2>
+                            </div>
+                            <p class="article__card-paragraf">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut
+                                aliquip ex ea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article__card">
+                        <img class="article__card-image" src="./img/3_1.png" alt="3_1">
+                        <div class="article__card-text-box">
+                            <div class="article__card-title-group">
+                                <h4 class="article__card-small-title">LIFESTYLE</h4>
+                                <h2 class="article__card-title" id="music">American dream</h2>
+                            </div>
+                            <p class="article__card-paragraf">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut
+                                aliquip ex ea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article__card">
+                        <img class="article__card-image" src="./img/4_1.png" alt="4_1">
+                        <div class="article__card-text-box">
+                            <div class="article__card-title-group">
+                                <h4 class="article__card-small-title">LIFESTYLE</h4>
+                                <h2 class="article__card-title"id="travel">A day exploring the Alps</h2>
+                            </div>
+                            <p class="article__card-paragraf">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut
+                                liquip ex ea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article__card">
+                        <img class="article__card-image" src="./img/5_1.png" alt="3_1">
+                        <div class="article__card-text-box">
+                            <div class="article__card-title-group">
+                                <h4 class="article__card-small-title">LIFESTYLE</h4>
+                                <h2 class="article__card-title" id="music">Top 10 song for running</h2>
+                            </div>
+                            <p class="article__card-paragraf">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut
+                                aliquip ex ea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article__card">
+                        <img class="article__card-image" src="./img/6_1.png" alt="4_1">
+                        <div class="article__card-text-box">
+                            <div class="article__card-title-group">
+                                <h4 class="article__card-small-title">LIFESTYLE</h4>
+                                <h2 class="article__card-title"id="travel">Cold winter days</h2>
+                            </div>
+                            <p class="article__card-paragraf">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut
+                                liquip ex ea.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        <div class="cardo">
-            <img class="fx" src="./img/2_1.png" alt="2_1">
-            <p class="text">LIFESTYLE</p>
-            <h2 id="PHOTODIARY" class="fx">Life tastes better with coffee</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-                 adipisicing elit, sed do eiusmod tempor 
-                 incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud 
-                  exercitation ullamco laboris nisi ut
-                   aliquip ex ea.</p>
         </div>
-        <div class="cardt">
-            <img class="fx" src="./img/3_1.png" alt="3_1">
-            <p class="text">LIFESTYLE</p>
-            <h2 id="MUSIC" class="fx">American dream</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-                 adipisicing elit, sed do eiusmod tempor 
-                 incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud 
-                  exercitation ullamco laboris nisi ut
-                   aliquip ex ea.</p>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content-box">
+                <a class="footer__button" href="#">Load more</a>
+            </div>
         </div>
-        <div class="cardf">
-            <img class="fx" src="./img/4_1.png" alt="4_1">
-            <p class="text">LIFESTYLE</p>
-            <h2 id="TRAVEL" class="fx">A day exploring the Alps</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-                 adipisicing elit, sed do eiusmod tempor 
-                 incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud 
-                  exercitation ullamco laboris nisi ut
-                   aliquip ex ea.</p>
-        </div>
-        <br>
-        <button class="button">Load more</button>
-        </main>
+    </footer>
 </body>
 </html>

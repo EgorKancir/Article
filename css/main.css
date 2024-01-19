@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 936px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 71px 0 46px 0;
+}
+.header__navigation-cansol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 99px;
+}
+.header__navigation-link {
+  display: block;
+  color: #7D7D7D;
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__navigation-link:hover {
+  color: #03A9F4;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+
+.article__card-title-group, .article__card-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.article {
+  margin: 0;
+  padding: 46px 0 45px 0;
+}
+.article__content-box {
+  display: grid;
+  grid-template-columns: 420px 420px;
+  grid-template-rows: repeat(3, 516px);
+  -moz-column-gap: 65px;
+       column-gap: 65px;
+  row-gap: 130px;
+}
+.article__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.article__card-image {
+  width: 420px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.article__card-text-box {
+  gap: 40px;
+}
+.article__card-title-group {
+  gap: 32px;
+}
+.article__card-small-title {
+  color: #B4AD9E;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.article__card-title {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.article__card-paragraf {
+  width: 420px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  margin: 0;
+  padding: 45px 0 66px 0;
+}
+.footer__content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__button {
+  margin: 0 auto;
+  padding: 20px 48px;
+  border: 1px solid #626262;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__button:hover {
+  transform: scale(1.05);
+  color: #03A9F4;
+  border: 1px solid #03A9F4;
+  transition: all 0.2s linear;
+}
