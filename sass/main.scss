@@ -19,6 +19,7 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-@import'header';
-@import'article';
-@import'footer';
+@import'utils/variables', 'utils/placeholders', 'utils/mixins';
+@import'components/header';
+@import'components/article';
+@import'components/footer';

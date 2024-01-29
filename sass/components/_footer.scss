@@ -1,12 +1,8 @@
-$dark-grey-color-text: #626262;
-$navigation-hover-color-text: #03A9F4;
 .footer {
     margin: 0;
     padding: 45px 0 66px 0;
     &__content-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %position-center;
     }
     &__button {
         margin: 0 auto;

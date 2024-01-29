@@ -24,17 +24,21 @@ ul {
   padding: 0 15px;
 }
 
+.footer__content-box, .card, .navigation__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   margin: 0 auto;
   padding: 71px 0 46px 0;
 }
-.header__navigation-cansol {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.navigation__list {
   gap: 99px;
 }
-.header__navigation-link {
+.navigation__link {
   display: block;
   color: #7D7D7D;
   font-family: Playfair Display;
@@ -43,17 +47,10 @@ ul {
   font-weight: 400;
   line-height: normal;
 }
-.header__navigation-link:hover {
+.navigation__link:hover {
   color: #03A9F4;
   transform: scale(1.05);
   transition: all 0.2s linear;
-}
-
-.article__card-title-group, .article__card-text-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
 }
 
 .article {
@@ -68,25 +65,31 @@ ul {
        column-gap: 65px;
   row-gap: 130px;
 }
-.article__card {
-  display: flex;
+
+.card {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 32px;
 }
-.article__card-image {
+.card__image {
   width: 420px;
   height: 280px;
   flex-shrink: 0;
 }
-.article__card-text-box {
+.card__text-box {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
   gap: 40px;
 }
-.article__card-title-group {
+.card__title-group {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
   gap: 32px;
 }
-.article__card-small-title {
+.card__small-title {
   color: #B4AD9E;
   font-family: Ubuntu;
   font-size: 14px;
@@ -94,7 +97,7 @@ ul {
   font-weight: 300;
   line-height: normal;
 }
-.article__card-title {
+.card__title {
   color: #626262;
   font-family: "Playfair Display";
   font-size: 30px;
@@ -102,7 +105,7 @@ ul {
   font-weight: 400;
   line-height: normal;
 }
-.article__card-paragraf {
+.card__paragraf {
   width: 420px;
   color: #626262;
   font-family: "Playfair Display";
@@ -115,11 +118,6 @@ ul {
 .footer {
   margin: 0;
   padding: 45px 0 66px 0;
-}
-.footer__content-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .footer__button {
   margin: 0 auto;

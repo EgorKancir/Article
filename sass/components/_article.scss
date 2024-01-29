@@ -1,0 +1,56 @@
+.article {
+    margin: 0;
+    padding: 46px 0 45px 0;
+    &__content-box {
+    display: grid;
+    grid-template-columns: 420px 420px;
+    grid-template-rows: repeat(3, 516px);
+    column-gap: 65px;
+    row-gap: 130px;
+    }
+}
+.card {
+    @extend %position-center;
+    flex-direction: column;
+    gap: 32px;
+    &__image {
+        width: 420px;
+        height: 280px;
+        flex-shrink: 0;
+    }
+    &__text-box {
+        @include flex(center, start);
+        flex-direction: column;
+        gap: 40px;
+    }
+    &__title-group {
+        @include flex(center, start);
+        flex-direction: column;
+        gap: 32px;
+    }
+    &__small-title {
+        color: #B4AD9E;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    &__title {
+        color: $dark-grey-color-text;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__paragraf {
+        width: 420px;
+        color: $dark-grey-color-text;
+        font-family: "Playfair Display";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

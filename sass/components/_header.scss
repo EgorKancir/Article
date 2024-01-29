@@ -1,0 +1,24 @@
+.header {
+    margin: 0 auto;
+    padding: 71px 0 46px 0;
+}
+.navigation {
+    &__list {
+        @extend %position-center;
+        gap: 99px;
+    }
+    &__link {
+        display: block;
+        color: $navigation-color-text;
+        font-family: Playfair Display;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &:hover {
+            color: $navigation-hover-color-text;
+            transform: scale(1.05);
+            transition: all 0.2s linear;
+        }
+    }
+}
